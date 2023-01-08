@@ -1,14 +1,22 @@
 import React from 'react';
 import 'antd/dist/reset.css';
 import styles from './App.module.css';
+import { BlogHeader } from './component/BlogHeader/BlogHeader';
+import { BlogMain } from './component/BlogMain/BlogMain';
+
 
 
 function App() {
+  
   return (
     <div className={styles.App}>
       <div className={styles.blog_container}>
-        <div className={styles.blog_header}></div>
-        
+        <div className={styles.blog_header}>
+          <BlogHeader />
+        </div>
+        <div className={styles.blog_main}>
+          <BlogMain />
+        </div>
       </div>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

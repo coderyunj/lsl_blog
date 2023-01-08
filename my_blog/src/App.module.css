@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.blog_container {
+  padding: 0 50px 80px 50px;
+}
